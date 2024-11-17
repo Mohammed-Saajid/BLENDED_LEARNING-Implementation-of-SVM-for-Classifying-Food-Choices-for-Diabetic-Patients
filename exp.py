@@ -1,42 +1,3 @@
-# BLENDED LEARNING
-# Implementation of Support Vector Machine for Classifying Food Choices for Diabetic Patients
-
-## AIM:
-To implement a Support Vector Machine (SVM) model to classify food items and optimize hyperparameters for better accuracy.
-
-## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
-## Algorithm
-1. **Load Data**  
-   Import and prepare the dataset to initiate the analysis workflow.
-
-2. **Explore Data**  
-   Examine the data to understand key patterns, distributions, and feature relationships.
-
-3. **Select Features**  
-   Choose the most impactful features to improve model accuracy and reduce complexity.
-
-4. **Split Data**  
-   Partition the dataset into training and testing sets for validation purposes.
-
-5. **Scale Features**  
-   Normalize feature values to maintain consistent scales, ensuring stability during training.
-
-6. **Train Model with Hyperparameter Tuning**  
-   Fit the model to the training data while adjusting hyperparameters to enhance performance.
-
-7. **Evaluate Model**  
-   Assess the model’s accuracy and effectiveness on the testing set using performance metrics.
-
-## Program:
-```py
-/*
-Program to implement SVM for food classification for diabetic patients.
-Developed by: MOHAMMED SAAJID S
-RegisterNumber: 212223240093
-*/
 
 # Import necessary libraries
 import pandas as pd
@@ -94,14 +55,3 @@ plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.title("Confusion Matrix")
 plt.show()
-
-
-```
-
-## Output:
-<img width="671" alt="Screenshot 2024-11-14 at 11 25 42 AM" src="https://github.com/user-attachments/assets/ad30a609-549a-4500-b8d2-d5c9c4c06b16">
-
-
-## Result:
-Thus, the SVM model was successfully implemented to classify food items for diabetic patients, with hyperparameter tuning optimizing the model's performance.
-
